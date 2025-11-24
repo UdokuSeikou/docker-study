@@ -1,0 +1,11 @@
+// filepath: c:\Users\keker\src\docker_study\frontend\tsconfig.node.json
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.env.d.ts", "vite.config.ts"]
+}
