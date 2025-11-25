@@ -1,13 +1,13 @@
 {
-  "watch": ["src"],
-  "ext": "ts",
-  "ignore": ["node_modules", "dist"],
-  "exec": "ts-node",
-  "env": {
-    "NODE_ENV": "development"
-  },
-  "delay": 500,
-  "legacyWatch": true,
-  "polling": true,
-  "pollInterval": 1000
+	"watch": ["src"],
+	"ext": "ts",
+	"ignore": ["node_modules", "dist"],
+	"exec": "tsx",
+	"env": {
+		"NODE_ENV": "development"
+	},
+	"delay": 500,
+	"legacyWatch": true,
+	"polling": true,
+	"pollInterval": 1000
 }
